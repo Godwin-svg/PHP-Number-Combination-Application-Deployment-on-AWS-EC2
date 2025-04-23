@@ -49,9 +49,12 @@ sudo rm -rf index.html
 sudo nano index.php
 # Paste your PHP code here and save it
 
-# Create composer.json (if needed)
+# Create composer.json 
 sudo nano composer.json
 # Paste your composer config here and save it
+
+# Install project dependencies using Composer
+sudo composer install
 
 # Restart Apache2 to apply changes
 sudo systemctl restart apache2
