@@ -58,3 +58,5 @@ sudo composer install
 
 # Restart Apache2 to apply changes
 sudo systemctl restart apache2
+
+# Access Your Application: Open a web browser and navigate to http://<your-ec2-public-ip>
